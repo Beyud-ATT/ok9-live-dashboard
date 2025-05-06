@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 const ChatBoxContent = () => {
   const [current, setCurrent] = useState(0);
   const { closeModal } = useModal();
-  const urlValue = `https://f8bet-live.pages.dev/chat-box/${localStorage.getItem(
+  const urlValue = `https://ok9-live.pages.dev/chat-box/${localStorage.getItem(
     "userCode"
   )}`;
 
